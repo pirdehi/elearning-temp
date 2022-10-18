@@ -1,13 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(4, 12, 30);
+  font-family: Vazir;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+@font-face {
+  font-family: Vazir Code;
+  src: url('./fonts/Vazir-Code.eot');
+  src: url('./fonts/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Vazir-Code.woff') format('woff'),
+       url('./fonts/Vazir-Code.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir Code Hack;
+  src: url('./fonts/Vazir-Code-Hack.eot');
+  src: url('./fonts/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+       url('./fonts/Vazir-Code-Hack.woff') format('woff'),
+       url('./fonts/Vazir-Code-Hack.ttf') format('truetype');
+  font-weight: normal;
 }
